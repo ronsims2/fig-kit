@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "module": "node16",
+    "module": "nodenext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "nodenext",
     "verbatimModuleSyntax": true,
     "declaration": true,
     "sourceMap": true,
     "declarationMap": true,
-    "declarationDir": "./dist/types",
-    "outDir": "./dist",
+    "declarationDir": "../utils/dist/types",
+    "outDir": "../utils/dist",
     "paths": {
-      "@orangemantis/utils": ["./packages/utils"]
+      "@orangemantis/fk-utils": ["./packages/fk-utils"]
     }
   }
 }

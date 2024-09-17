@@ -5,6 +5,10 @@ This project is not only a Figma dev tool kit but a tutorial on how to build a p
 Visit the _discovery_ branch to walk through the journey of creating this project.
 
 
+## Installing dependencies
+
+`npm install lodash-es --workspace @orangemantis/fk-utils`
+
 ## Build the utils
 
 To generate the transpiled JS, and declarations run:

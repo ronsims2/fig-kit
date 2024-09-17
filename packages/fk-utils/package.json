@@ -1,0 +1,23 @@
+{
+  "name": "@orangemantis/fk-utils",
+  "version": "0.0.1",
+  "description": "Goodies for building figma plugins.",
+  "main": "index.mts",
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [
+    "figma"
+  ],
+  "author": "Ron Sims II",
+  "license": "MIT",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
