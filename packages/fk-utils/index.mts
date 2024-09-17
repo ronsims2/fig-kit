@@ -1,8 +1,9 @@
-import cloneDeep from 'lodash-es/cloneDeep'
+import { cloneDeep } from 'lodash-es'
 export interface HelloWorldPayload {
     payload: string
 }
 
 export function helloWorld(): HelloWorldPayload {
-    return cloneDeep({payload: "hello world"})
+    const payload: HelloWorldPayload = {payload: 'hello world'}
+    return cloneDeep(payload)
 }

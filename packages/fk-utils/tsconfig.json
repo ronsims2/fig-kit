@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es2020",
     "module": "nodenext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -12,6 +12,6 @@
     "sourceMap": true,
     "declarationMap": true,
     "declarationDir": "../fk-utils/dist/types",
-    "outDir": "../fk-utils/dist",
+    "outDir": "../fk-utils/dist"
   }
 }
