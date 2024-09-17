@@ -90,7 +90,6 @@
     "text-table": "^0.2.0",
     "type-check": "^0.4.0",
     "type-fest": "^0.20.2",
-    "typescript": "^5.5.4",
     "uri-js": "^4.4.1",
     "utils": "^0.0.1",
     "which": "^2.0.2",
@@ -98,7 +97,6 @@
     "wrappy": "^1.0.2",
     "yocto-queue": "^0.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

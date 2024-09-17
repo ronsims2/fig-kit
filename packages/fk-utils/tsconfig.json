@@ -13,8 +13,5 @@
     "declarationMap": true,
     "declarationDir": "../fk-utils/dist/types",
     "outDir": "../fk-utils/dist",
-    "paths": {
-      "@orangemantis/fk-utils": ["./packages/fk-utils"]
-    }
   }
 }
