@@ -11,8 +11,8 @@
     "declaration": true,
     "sourceMap": true,
     "declarationMap": true,
-    "declarationDir": "../utils/dist/types",
-    "outDir": "../utils/dist",
+    "declarationDir": "../fk-utils/dist/types",
+    "outDir": "../fk-utils/dist",
     "paths": {
       "@orangemantis/fk-utils": ["./packages/fk-utils"]
     }
