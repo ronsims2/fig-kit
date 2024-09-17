@@ -12,6 +12,9 @@
     "sourceMap": true,
     "declarationMap": true,
     "declarationDir": "./dist/types",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "paths": {
+      "@orangemantis/utils": ["./packages/utils"]
+    }
   }
 }
