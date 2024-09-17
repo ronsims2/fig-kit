@@ -8,8 +8,10 @@
     "skipLibCheck": true,
     "moduleResolution": "NodeNext",
     "verbatimModuleSyntax": true,
-    "declaration": false,
+    "declaration": true,
     "sourceMap": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "declarationDir": "./dist/types",
+    "outDir": "./dist"
   }
 }
