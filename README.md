@@ -18,3 +18,12 @@ To generate the transpiled JS, and declarations run:
 To remove generated generated files, run:
 
 `npx tsc --build --clean`
+
+## Troubleshooting
+
+If you get a 404 error when trying to publish via:
+
+`npm publish --access public`
+
+This is like related authorization.  
+The user is likely not logged in or the auth token is invalid.
