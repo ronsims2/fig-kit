@@ -107,5 +107,8 @@
   "license": "MIT",
   "workspaces": [
     "packages/fk-utils"
-  ]
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.6.0"
+  }
 }
