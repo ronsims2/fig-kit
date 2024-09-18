@@ -1,9 +1,5 @@
-import { cloneDeep } from 'lodash-es'
-export interface HelloWorldPayload {
-    payload: string
-}
+import {helloWorld as _helloWorld, type HelloWorldPayload as _HelloWorldPayload} from './src/hello-world.mjs'
 
-export function helloWorld(): HelloWorldPayload {
-    const payload: HelloWorldPayload = {payload: 'hello world'}
-    return cloneDeep(payload)
-}
+export const helloWorld = _helloWorld
+export type HelloWorldPayload = _HelloWorldPayload
+
