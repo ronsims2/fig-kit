@@ -5,6 +5,6 @@ export interface HelloWorldPayload {
 }
 
 export function helloWorld(): HelloWorldPayload {
-  const payload: HelloWorldPayload = {payload: 'hello world'}
+  const payload: HelloWorldPayload = { payload: 'hello world' }
   return cloneDeep(payload)
 }

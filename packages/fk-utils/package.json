@@ -1,9 +1,10 @@
 {
   "name": "@orangemantis/fk-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Goodies for building Figma plugins.",
   "main": "dist",
   "type": "module",
+  "types": "dist/types/index",
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",
     "typescript": "^5.6.2"
