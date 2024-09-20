@@ -27,3 +27,7 @@ If you get a 404 error when trying to publish via:
 
 This is like related authorization.  
 The user is likely not logged in or the auth token is invalid.
+
+To see which files will be published run:
+
+`npm publish --dry-run`
