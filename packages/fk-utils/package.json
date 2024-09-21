@@ -1,8 +1,9 @@
 {
   "name": "@orangemantis/fk-utils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Goodies for building Figma plugins.",
   "type": "module",
+  "files": ["esm"],
   "exports": {
     ".": {
       "import": {
@@ -20,7 +21,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
-    "clean": "tsc --build --clean"
+    "clean": "tsc --build --clean",
+    "prepare": "npm run clean && npm run build"
   },
   "keywords": [
     "figma"
