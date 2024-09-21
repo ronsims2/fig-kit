@@ -1,6 +1,6 @@
 {
   "name": "@orangemantis/fk-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Goodies for building Figma plugins.",
   "type": "module",
   "files": ["esm"],
@@ -10,6 +10,10 @@
         "types": "./esm/types/index.d.ts",
         "default": "./esm/index.js"
       }
+    },
+    "./esm/": {
+      "types": "./esm/types/",
+      "default": "./esm/"
     }
   },
   "main": "./esm/index.js",
