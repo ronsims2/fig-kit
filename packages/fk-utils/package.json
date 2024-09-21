@@ -6,13 +6,13 @@
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/types/index.d.ts",
-        "default": "./dist/index.js"
+        "types": "./esm/types/index.d.ts",
+        "default": "./esm/index.js"
       }
     }
   },
-  "main": "./dist/index.js",
-  "types": "./dist/types/index.d.ts",
+  "main": "./esm/index.js",
+  "types": "./esm/types/index.d.ts",
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",
     "typescript": "^5.6.2"
