@@ -131,3 +131,5 @@ dist
 
 # Projuct output dir
 **/esm
+
+*storybook.log

@@ -2,9 +2,13 @@
   "extends": [
     "prettier",
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended"
   ],
   "rules": {
-    "curly": ["error", "all"]
+    "curly": [
+      "error",
+      "all"
+    ]
   }
 }

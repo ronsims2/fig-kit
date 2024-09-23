@@ -19,6 +19,9 @@ To remove generated generated files, run:
 
 `npx tsc --build --clean`
 
+## Component Documentation
+
+
 ## Troubleshooting
 
 If you get a 404 error when trying to publish via:
