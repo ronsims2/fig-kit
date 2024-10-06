@@ -9,12 +9,13 @@ const __dirname = dirname(__filename)
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, 'index.js'),
+      // This shoudl point to the actual builttime code file and not eh one resolved to at runtime
+      entry: resolve(__dirname, 'index.ts'),
       name: 'FKReactVanillae',
       fileName: 'fk-react-vanillae',
     },
     rollupOptions: {
-      external: ['react', 'lodash'],
+      external: ['react', 'lodash-es'],
       output: {
         globals: {
           react: 'React',
