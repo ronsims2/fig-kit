@@ -1,6 +1,6 @@
 {
   "name": "@orangemantis/fig-kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Figma plugin toolkit and monorepo example.",
   "main": "index.js",
   "dependencies": {

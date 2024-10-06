@@ -1,6 +1,6 @@
 {
   "name": "fk-react-vanillae",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react component library for Figma Plugins with Vanilla Extract CSS.",
   "main": "./index.js",
   "devDependencies": {
@@ -12,6 +12,7 @@
   "author": "Ron Sims II",
   "license": "MIT",
   "dependencies": {
-    "lodash-es": "^4.17.21"
+    "lodash-es": "^4.17.21",
+    "react": "^18.3.1"
   }
 }
