@@ -1,1 +1,9 @@
 template/
+stories/
+packages/
+.idea/
+.storybook/
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+NOTES.md
