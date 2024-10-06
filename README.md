@@ -34,3 +34,11 @@ The user is likely not logged in or the auth token is invalid.
 To see which files will be published run:
 
 `npm publish --dry-run`
+
+## Appendix
+
+### Work notes
+
+Storybook is installed at the root of the repository.
+The Storybook configuration API was defined before monorepos became popular.
+This is done to ensure cleaner dependency management.
