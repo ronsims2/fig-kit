@@ -12,7 +12,7 @@ export default defineConfig({
       // This shoudl point to the actual builttime code file and not eh one resolved to at runtime
       entry: resolve(__dirname, 'index.ts'),
       name: 'FKReactVanillae',
-      fileName: 'fk-react-vanillae',
+      fileName: 'index',
     },
     rollupOptions: {
       external: ['react', 'lodash-es'],
