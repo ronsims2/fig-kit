@@ -6,7 +6,7 @@ function _Button(props, ref) {
   const { onClick, label, children } = props
   return (
     <button ref={ref} onClick={onClick}>
-      {children ?? camelCase(label)}
+      {children ? children : camelCase(label)}
     </button>
   )
 }
