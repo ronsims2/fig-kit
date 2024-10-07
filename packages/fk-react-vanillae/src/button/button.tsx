@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import { camelCase } from 'lodash-es'
 
-export function Button(props) {
-  return <button>{camelCase(props.label) ?? 'submit'}</button>
+// The camelcase is there just to simulate complexity
+function _Button(props, ref) {
+  const { onClick, label, children } = props
+  return (
+    <button ref={ref} onClick={onClick}>
+      {children ?? camelCase(label)}
+    </button>
+  )
 }
+
+export const Button = forwardRef(_Button)
 
 export enum ButtonSizes {
   xsmall,
