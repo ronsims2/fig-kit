@@ -8,7 +8,7 @@ Install the package:
 
 ### CSS 
 
-You can import the the stylesheet form the `node_modules` directory:
+You can import the stylesheet form the `node_modules` directory:
 
 `@import url('@orangemantis/fk-react-vanillae/dist/style.css');
 `
