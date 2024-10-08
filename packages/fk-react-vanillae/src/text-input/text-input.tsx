@@ -1,13 +1,13 @@
 import React, { forwardRef } from 'react'
 
-export type InputProps = {
+export type TextInputProps = {
   placeholder: string
   defaultValue: string
   name: string
   className: string
 }
 
-function _Input(props: InputProps, ref: React.Ref<unknown>) {
+function _TextInput(props: TextInputProps, ref: React.Ref<unknown>) {
   const { placeholder, defaultValue, name, className } = props
   return (
     <input
@@ -20,4 +20,4 @@ function _Input(props: InputProps, ref: React.Ref<unknown>) {
   )
 }
 
-export const Input = forwardRef(_Input)
+export const TextInput = forwardRef(_TextInput)
