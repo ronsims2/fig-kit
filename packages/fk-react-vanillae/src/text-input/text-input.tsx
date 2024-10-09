@@ -1,5 +1,7 @@
 import React, { forwardRef } from 'react'
 
+import './text-input.css'
+
 export type TextInputProps = {
   placeholder: string
   defaultValue: string

@@ -12,3 +12,12 @@ run  the following command to build the package:
 
 
 ## Publishing
+
+### Styles
+
+CSS modules are basically concatinated into a `styles.css` file as an artifact from
+
+`vite build`
+
+The developer must choose a strategy like BEM to make sure that class names are unique. 
+if Different modules contain the same class names collisions will occur with the last processed one winnign out.
