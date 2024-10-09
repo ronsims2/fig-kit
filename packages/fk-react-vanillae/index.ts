@@ -1,2 +1,2 @@
-export { Button, ButtonProps, ButtonSizes } from './src/button'
-export { TextInput, TextInputProps } from './src/text-input'
+export { Button, type ButtonProps, ButtonSizes } from './src/button'
+export { TextInput, type TextInputProps } from './src/text-input'

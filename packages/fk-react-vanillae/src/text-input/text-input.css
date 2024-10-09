@@ -1,3 +1,8 @@
 .fk-text-input {
     height: 20px;
+    border-color: #242424;
+}
+
+.fk-btn {
+    background-color: #66bf3c;
 }
