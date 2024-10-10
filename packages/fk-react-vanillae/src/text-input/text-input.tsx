@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import React, { forwardRef, LegacyRef } from 'react'
 
 import './text-input.css'
 
@@ -9,7 +9,10 @@ export type TextInputProps = {
   className: string
 }
 
-function _TextInput(props: TextInputProps, ref: React.Ref<unknown>) {
+function _TextInput(
+  props: TextInputProps,
+  ref: LegacyRef<HTMLInputElement> | undefined,
+) {
   const { placeholder, defaultValue, name, className } = props
   return (
     <input

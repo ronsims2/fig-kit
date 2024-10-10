@@ -9,13 +9,11 @@ run  the following command to build the package:
 
 `vite build`
 
-
-
 ## Publishing
 
 ### Styles
 
-CSS modules are basically concatinated into a `styles.css` file as an artifact from
+CSS modules are basically concatenated into a `styles.css` file as an artifact from
 
 `vite build`
 

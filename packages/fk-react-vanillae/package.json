@@ -2,7 +2,8 @@
   "name": "@orangemantis/fk-react-vanillae",
   "version": "0.0.7",
   "description": "A react component library for Figma Plugins with Vanilla Extract CSS.",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
   "type": "module",
   "files": ["dist"],
   "devDependencies": {

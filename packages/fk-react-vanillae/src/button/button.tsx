@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import React, { forwardRef, LegacyRef } from 'react'
 import { camelCase } from 'lodash-es'
 
 import './button.css'
@@ -11,7 +11,7 @@ export type ButtonProps = {
 }
 
 // The camelcase is there just to simulate complexity
-function _Button(props: ButtonProps, ref) {
+function _Button(props: ButtonProps, ref: LegacyRef<HTMLButtonElement>) {
   const { onClick, label, children, className } = props
   return (
     <button className={`fk-btn ${className}`} ref={ref} onClick={onClick}>
