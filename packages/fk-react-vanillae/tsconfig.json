@@ -9,10 +9,10 @@
     "sourceMap": true,
     "declarationMap": true,
     "emitDeclarationOnly": true,
-    "declarationDir": "./dist/types",
+    "declarationDir": "./types",
     "removeComments": true,
     "pretty": true,
     "jsx": "react-jsx"
   },
-  "exclude": ["dist","**/stories/*"]
+  "exclude": ["types","dist","**/stories/*"]
 }
