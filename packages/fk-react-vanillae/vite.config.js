@@ -9,7 +9,7 @@ const __dirname = dirname(__filename)
 export default defineConfig({
   build: {
     lib: {
-      // This shoudl point to the actual builttime code file and not eh one resolved to at runtime
+      // This should point to the actual built time code file and not the one resolved to at runtime
       entry: resolve(__dirname, 'index.ts'),
       name: 'FKReactVanillae',
       fileName: 'index',
@@ -19,7 +19,7 @@ export default defineConfig({
       output: {
         globals: {
           react: 'React',
-          lodash: 'Lodash',
+          'lodash-es': 'LodashEs',
         },
       },
     },

@@ -1,24 +1,12 @@
 {
   "name": "@orangemantis/fk-react-vanillae",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "description": "A react component library for Figma Plugins with Vanilla Extract CSS.",
   "type": "module",
-  "files": ["dist", "types"],
+  "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
   "types": "./types/index.d.ts",
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./types/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "require": {
-        "types": "./types/index.d.ts",
-        "default": "./dist/index.umd.cjs"
-      }
-    }
-  },
-  "main": "./dist/index.umd.cjs",
+  "files": ["dist", "types", "README.md", "LICENSE.txt"],
   "devDependencies": {
     "vite": "^5.4.8"
   },
