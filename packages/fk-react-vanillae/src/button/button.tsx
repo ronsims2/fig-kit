@@ -14,7 +14,7 @@ export type ButtonProps = {
 function _Button(props: ButtonProps, ref: LegacyRef<HTMLButtonElement>) {
   const { onClick, label, children, className } = props
   return (
-    <button className={`fk-btn ${className}`} ref={ref} onClick={onClick}>
+    <button className={`fk-btn ${className ?? ''}`} ref={ref} onClick={onClick}>
       {children ? children : camelCase(label)}
     </button>
   )

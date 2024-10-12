@@ -16,7 +16,7 @@ function _TextInput(
   const { placeholder, defaultValue, name, className } = props
   return (
     <input
-      className={`fk-input ${className}`}
+      className={`fk-input ${className ?? ''}`}
       ref={ref}
       name={name}
       placeholder={placeholder}

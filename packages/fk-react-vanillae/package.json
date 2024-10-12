@@ -1,17 +1,38 @@
 {
   "name": "@orangemantis/fk-react-vanillae",
-  "version": "0.0.15",
+  "version": "0.0.23",
   "description": "A react component library for Figma Plugins with Vanilla Extract CSS.",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./types/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./dist/": {
+      "default": "./dist/"
+    },
+    "./types/": {
+      "default": "./types/"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
   "types": "./types/index.d.ts",
-  "files": ["dist", "types", "README.md", "LICENSE.txt"],
+  "files": [
+    "dist",
+    "types",
+    "README.md",
+    "LICENSE.txt"
+  ],
   "devDependencies": {
     "vite": "^5.4.8"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b && vite build"
   },
   "author": "Ron Sims II",
   "license": "MIT",
