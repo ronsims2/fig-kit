@@ -4,6 +4,10 @@
   "description": "A react component library for Figma Plugins with Vanilla Extract CSS.",
   "exports": {
     ".": {
+      "require": {
+        "types": "./types/index.d.ts",
+        "default": "./dist/index.umd.js"
+      },
       "import": {
         "types": "./types/index.d.ts",
         "default": "./dist/index.js"
