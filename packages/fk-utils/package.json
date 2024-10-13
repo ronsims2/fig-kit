@@ -1,6 +1,6 @@
 {
   "name": "@orangemantis/fk-utils",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Goodies for building Figma plugins.",
   "type": "module",
   "files": ["esm", "README.md", "LICENSE.txt"],
