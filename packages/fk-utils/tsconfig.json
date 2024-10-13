@@ -1,17 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "nodenext",
+    "target": "ES2020",
+    "module": "NodeNext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "moduleResolution": "nodenext",
-    "verbatimModuleSyntax": true,
+    "moduleResolution": "NodeNext",
     "declaration": true,
     "sourceMap": true,
     "declarationMap": true,
-    "declarationDir": "../fk-utils/esm/types",
-    "outDir": "../fk-utils/esm"
+    "declarationDir": "../fk-utils/esm",
+    "pretty": true,
+    "outDir": "../fk-utils/esm",
+    "isolatedModules": true
   }
 }
