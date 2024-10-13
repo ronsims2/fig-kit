@@ -1,21 +1,23 @@
 {
   "name": "@orangemantis/fk-utils",
-  "version": "0.0.10",
+  "version": "0.0.8",
   "description": "Goodies for building Figma plugins.",
   "type": "module",
-  "files": ["esm", "README.md", "LICENSE.txt"],
+  "files": ["esm"],
   "exports": {
     ".": {
       "import": {
-        "types": "./esm/index.d.ts",
+        "types": "./esm/types/index.d.ts",
         "default": "./esm/index.js"
       }
     },
-    "./index.js": "./esm/index.js",
-    "./esm/": "./esm/"
+    "./esm/": {
+      "types": "./esm/types/",
+      "default": "./esm/"
+    }
   },
   "main": "./esm/index.js",
-  "types": "./esm/index.d.ts",
+  "types": "./esm/types/index.d.ts",
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",
     "typescript": "^5.6.2"

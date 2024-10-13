@@ -11,7 +11,7 @@
     "declaration": true,
     "sourceMap": true,
     "declarationMap": true,
-    "declarationDir": "../fk-utils/esm",
+    "declarationDir": "../fk-utils/esm/types",
     "outDir": "../fk-utils/esm"
   }
 }
