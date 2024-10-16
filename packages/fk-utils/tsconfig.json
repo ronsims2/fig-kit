@@ -10,9 +10,9 @@
     "declaration": true,
     "sourceMap": true,
     "declarationMap": true,
-    "declarationDir": "../fk-utils/esm",
+    "declarationDir": "./dist/esm",
     "pretty": true,
-    "outDir": "../fk-utils/esm",
+    "outDir": "./dist/esm",
     "isolatedModules": true
   }
 }
