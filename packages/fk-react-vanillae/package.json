@@ -1,6 +1,6 @@
 {
   "name": "@orangemantis/fk-react-vanillae",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A react component library for Figma Plugins with Vanilla Extract CSS.",
   "exports": {
     ".": {
