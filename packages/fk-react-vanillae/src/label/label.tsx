@@ -4,7 +4,7 @@ export type LabelProps = {
   text: string
   className?: string | string[]
 }
-export function Label(props: labelProps) {
+export function Label(props: LabelProps) {
   const { text, className } = props
 
   const styles = className?.push
