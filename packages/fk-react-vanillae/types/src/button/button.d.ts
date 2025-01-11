@@ -1,10 +1,10 @@
 import React from 'react';
 import './button.css';
 export type ButtonProps = {
-    onClick: (e: React.SyntheticEvent) => void;
-    label: string;
-    children: React.ReactNode;
-    className: string;
+    onClick?: (e: React.SyntheticEvent) => void;
+    label?: string;
+    children?: React.ReactNode;
+    className?: string | string[];
 };
 export declare const Button: React.ForwardRefExoticComponent<ButtonProps & React.RefAttributes<HTMLButtonElement>>;
 export declare enum ButtonSizes {

@@ -4,10 +4,10 @@ import { camelCase } from 'lodash-es'
 import './button.css'
 
 export type ButtonProps = {
-  onClick: (e: React.SyntheticEvent) => void
-  label: string
-  children: React.ReactNode
-  className: string
+  onClick?: (e: React.SyntheticEvent) => void
+  label?: string
+  children?: React.ReactNode
+  className?: string | string[]
 }
 
 // The camelcase is there just to simulate complexity
