@@ -15,9 +15,10 @@ export default defineConfig({
       fileName: 'index',
     },
     rollupOptions: {
-      external: ['react', 'lodash-es'],
+      external: ['react', 'react-dom', 'lodash-es'],
       output: {
         globals: {
+          'react-dom': 'ReactDom',
           react: 'React',
           'lodash-es': 'LodashEs',
         },
